@@ -153,5 +153,9 @@
       "react-app"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vanilla-extract/babel-plugin": "^0.3.0",
+    "@vanilla-extract/css": "^0.3.0",
+    "@vanilla-extract/webpack-plugin": "^0.2.1"
+  }
 }
