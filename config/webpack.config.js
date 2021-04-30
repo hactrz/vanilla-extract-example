@@ -410,6 +410,7 @@ module.exports = function (webpackEnv) {
                 ],
 
                 plugins: [
+                  require.resolve('@vanilla-extract/babel-plugin'),
                   [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
@@ -420,7 +421,6 @@ module.exports = function (webpackEnv) {
                         },
                       },
                     },
-                    require.resolve('@vanilla-extract/babel-plugin'),
                   ],
                   isEnvDevelopment &&
                     shouldUseReactRefresh &&
